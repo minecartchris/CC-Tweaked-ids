@@ -1,6 +1,5 @@
 os.sleep(1)
 term.clear()
-os.sleep(1)
 print("This is used for hacking.")
 print("10, Ryan,")
 print("56, Cheesy,")
