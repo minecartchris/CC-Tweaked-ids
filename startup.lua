@@ -1,3 +1,4 @@
+sleep(1)
 clear
 print("This is used for hacking.")
 print("10, Ryan,")
