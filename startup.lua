@@ -1,3 +1,4 @@
+clear
 print("This is used for hacking.")
 print("10, Ryan,")
 print("56, Cheesy,")
