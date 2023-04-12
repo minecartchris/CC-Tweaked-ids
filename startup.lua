@@ -1,5 +1,5 @@
 sleep(1)
-clear
+tern.clear()
 sleep(1)
 print("This is used for hacking.")
 print("10, Ryan,")
