@@ -6,3 +6,4 @@ print("56, Cheesy,")
 print("31, Chris,")
 print("16, Jeremy,")
 print("40, Hunter,")
+term.shutdown
