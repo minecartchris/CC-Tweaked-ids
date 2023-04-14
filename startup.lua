@@ -1,6 +1,6 @@
 os.sleep(1)
 term.clear()
-term.setCursorPoz(1, 1)
+term.setCursorPos(1, 1)
 print("This is used for hacking.")
 print("10, Ryan,")
 print("56, Cheesy,")
