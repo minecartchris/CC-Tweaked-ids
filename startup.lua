@@ -1,11 +1,31 @@
+-- CC Tablet Initialization
 os.sleep(1)
 term.clear()
 term.setCursorPos(1, 1)
-print("This is used for hacking.")
-print("10, Ryan,")
-print("56, Cheesy,")
-print("31, Chris,")
-print("16, Jeremy,")
-print("40, Hunter,")
-print("73, Chris's basement,")
-print("83, Chris's hacking tablit")
+
+-- Variables
+local idTable = {
+  [10] = "Ryan",
+  [56] = "Cheesy",
+  [31] = "Chris",
+  [16] = "Jeremy",
+  [40] = "Hunter",
+  [73] = "Chris' basement",
+  [83] = "Chris' hacking tablet"
+}
+
+-- Main Code
+function Start()
+  print("This is going to be used for hacking.\n")
+  local numberArray = {}
+  for i, v in pairs(idTable) do
+    table.insert(numberArray, i)
+  end
+  table.sort(numberArray)
+  
+  for i, v in ipairs(numberArray) do
+    print(v..", "..idTable[v])
+  end
+end
+
+Start()
