@@ -16,7 +16,7 @@ local idTable = {
 
 -- Main Code
 function Start()
-  print("This is going to be used for hacking.\n")
+  print("This is used for hacking.\n")
   local numberArray = {}
   for i, v in pairs(idTable) do
     table.insert(numberArray, i)
