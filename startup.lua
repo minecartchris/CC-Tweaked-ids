@@ -12,7 +12,7 @@ local idTable = {
   [40] = "Hunter",
   [73] = "Chris' basement",
   [83] = "Chris' hacking tablet"
-  [97] = "aleeya's coputer"
+  [97] = "aleeya's coputer",
 }
 
 -- Main Code
