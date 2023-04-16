@@ -5,14 +5,14 @@ term.setCursorPos(1, 1)
 
 -- Variables
 local idTable = {
-  [10] = "Ryan",
-  [56] = "Cheesy",
-  [31] = "Chris",
-  [16] = "Jeremy",
-  [40] = "Hunter",
-  [73] = "Chris' basement",
-  [83] = "Chris' hacking tablet"
-  [97] = "aleeya's coputer",
+  [10] = "Ryan,",
+  [56] = "Cheesy,",
+  [31] = "Chris,",
+  [16] = "Jeremy,",
+  [40] = "Hunter,",
+  [73] = "Chris' basement,",
+  [83] = "Chris' hacking tablet,"
+  [97] = "aleeya's coputer,",
 }
 
 -- Main Code
