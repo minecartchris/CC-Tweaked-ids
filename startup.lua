@@ -5,14 +5,14 @@ term.setCursorPos(1, 1)
 
 -- Variables
 local idTable = {
-  [10] = "Ryan,",
-  [56] = "Cheesy,",
-  [31] = "Chris,",
-  [16] = "Jeremy,",
-  [40] = "Hunter,",
-  [73] = "Chris' basement,",
-  [83] = "Chris' hacking tablet,",
-  [97] = "aleeya,",
+  [10] = "Ryan",
+  [56] = "Cheesy",
+  [31] = "Chris",
+  [16] = "Jeremy",
+  [40] = "Hunter",
+  [73] = "Chris' basement",
+  [83] = "Chris' hacking tablet",
+  [97] = "aleeya",
 }
 
 -- Main Code
@@ -25,7 +25,7 @@ function Start()
   table.sort(numberArray)
   
   for i, v in ipairs(numberArray) do
-    print(v..", "..idTable[v])
+    print(v.." | "..idTable[v]..",")
   end
 end
 
